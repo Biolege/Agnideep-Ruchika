@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(0.429597,0,0,0.426636,-114.799,-71.6062)">
+<svg width="100%" height="100%" viewBox="0 0 500 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.210027,0,0,0.210027,-175.773,-402.829)">
+        <text x="1290px" y="2287px" style="font-family:'Organocoloredversionat:logomagazin.comorgano-font', 'Organo (colored version at: logomagazin.com/organo-font)';font-size:460.695px;fill:white;">biolege</text>
+    </g>
+    <g transform="matrix(0.166504,0,0,0.165356,-44.4938,-27.3962)">
         <g transform="matrix(1.8215,0,0,1.8215,-421.136,-94.1736)">
             <path d="M461.701,224.036C468.318,224.036 473.701,229.419 473.701,236.036C473.701,242.653 468.318,248.037 461.701,248.037C455.084,248.037 449.701,242.653 449.701,236.036C449.701,229.419 455.084,224.036 461.701,224.036ZM469.524,189.111L490.682,189.111C496.9,189.111 501.958,194.169 501.958,200.386C501.958,206.604 496.9,211.662 490.682,211.662L469.524,211.662C463.306,211.662 458.248,206.604 458.248,200.386C458.248,194.169 463.306,189.111 469.524,189.111Z" style="fill:white;fill-rule:nonzero;"/>
         </g>
