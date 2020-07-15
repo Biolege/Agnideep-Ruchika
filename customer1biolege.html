@@ -1,0 +1,170 @@
+done
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My family details
+        </title>
+        <meta charset="UTF-8">
+        
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+         <style>
+             l:hover{
+                 background-color: #141B41;
+                 color: white;
+             }
+             .nav {
+                background-color: #141B41 ;
+            }
+            .nav>li>a {
+                background-color: #141B41 ;
+                color: #fff;
+            }
+            .circle1{
+            background-color: #E5E5E5; 
+            width: 40px; 
+            height: 40px;
+            }
+            .green-text{
+                color: rgb(2, 182, 2);
+            }
+            .red-text{
+                color: red;
+            }
+            .bod{
+                background-color: #141B41;
+                font-style: 'Nunito Sans';
+            }
+            .dash-bg{
+                background-color: #FF8900;
+            }
+            .light-back{
+                background-color: white;
+            }
+            .font-20{
+                font-size: 18px;
+            }
+            .deco{
+                color: black;
+            }
+            .font-14{
+                font-size: 14px;
+            }
+            @media only screen and (max-width: 768px) {
+                [class*="tas"] {
+                  font-size: 9px;
+                }
+                  .inf{
+                      margin-left: -15px;
+                  }
+                .inf1{
+                    margin-left: 15px;
+                }
+                
+                  
+            }
+            .pane-width{
+                width: 880px;
+            }
+            .shad{
+                box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.05);
+            }
+         </style>
+    </head>
+    <body class="bod">
+        <div class="container mt-lg-5">
+           
+            <div class="row">
+                <div class="col-xs-12 col-lg-2 mt-md-5 py-md-4 left-pane rounded dash-bg inf1" ><l>
+                     <b>Dashboard</b><br></l>
+                   <l><b> Customer</b><br> </l>
+                   <l><b>Tests and Lab</b><br></l>
+                   <l><b>Employee</b><br></l>
+                   <l><b>Search</b><br></l>
+                
+                </div>
+                
+                    <div class="col-lg-10 rounded inf">
+                    <div class="col-md-12">
+                        <div class="float-left">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active tas" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link tas " id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Diagnostics</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link tas" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Appointments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tas" id="pharma-tab" data-toggle="tab" href="#pharma" role="tab" aria-controls="pharma" aria-selected="false">Pharmaceuticals</a>
+                          </li>
+                      </ul>
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active light-back pane-width" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" >
+                            <div class="row mx-2">
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                        <div class="col-2 mr-auto ml-n4 mt-5 ml-sm-5 text-left">
+                                            <h3>User</h3>
+                                        </div>
+                                        <div class="col-5 mt-5 add add-res text-right mr-5">
+                                            <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                                                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                                              </svg>
+                                            <button type="button" class="btn btn-sm btn-light px-sm-4 rounded-pill dash-bg" >+Add Users</button>    
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div class="col-sm-12 mt-sm-5">
+                                            <table class=" table table-responsive-sm table-borderless px-4">
+                                                <thead class="shad">
+                                                    <tr>
+                                                      <th scope="row col-1 font-20"></th>
+                                                      <td class="py-4 col-3 font-20">Name</td>
+                                                      <td class="py-4 pr-5 col-4 font-20">Location</td>
+                                                      <td class="py-4 col-2 font-20">Status</td>
+                                                      <td class="py-4 col-2"></td>
+                                                      
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr class="border-bottom">
+                                                      <td scope="row col-1"><div class="rounded-circle circle1"></div></td>
+                                                      <td class="py-4 col-3 font-14">Chaggulal Chatriwala</td>
+                                                      <td class="py-4 col-4 font-14"></td>
+                                                      <td class="py-4 col-2 font-14 green-text">App</td>
+                                                      <td class="py-4 col-2 font-14"><a class="deco" href="#">View</a></td>
+                                                    </tr>
+                                                    <tr class="border-bottom">
+                                                      <th scope="row col-1"><div class="rounded-circle circle1"></div></th>
+                                                      <td class="py-4 col-3 font-14">Bahattar Singh</td>
+                                                      <td class="py-4 col-4 font-14"></td>
+                                                      <td class="py-4 col-2 red-text font-14">Offline</td>
+                                                      <td class="py-4 col-2 font-14"><a class="deco" href="#">View</a></td>
+                                                      
+                                                    </tr>
+                                                  </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
