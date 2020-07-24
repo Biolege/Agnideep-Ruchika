@@ -16,6 +16,14 @@
 <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
                    
     <style>
+        .card {
+   transform: scale(0.9);
+   transform-origin: 30 0;
+   }
+.slider {
+   transform: scale(0.95);
+   transform-origin: 30 0;
+   }
         .body{
             font-family: 'Nunito Sans';
         }
@@ -69,9 +77,6 @@
             color: rgba(0, 0, 0, 0.8);
         }
         
-        .jumbohead {
-            width: fit-content;
-        }
         
         .inp {
             width: 70%;
@@ -108,20 +113,12 @@
             color: white;
         }
         
-        .jumbotron {
-            color: white;
-            background-color: orange;
-        }
         
         .fa-check-circle {
             color: #141b41;
         }
         
-        .pill:hover {
-            color: white;
-            background-color: #141b41;
-        }
-        
+                
         .card {
             box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);;
             border-width: 0;
@@ -605,14 +602,14 @@
 
 
 
-            <div class="col-lg-1 ml-n5 mr-3">
-                <div class="container border-light shad border10 " style="width: 150px;">
+            <div class="col-lg-1 ml-n4 mr-3">
+                <div class="container border-light shad border10 " style="width: 160px;">
                         <div class="row">
                             <div class="col-4 mt-2">
                                 <svg class="" aria-hidden="true" focusable="false" data-prefix="far" data-icon="address-card" class="svg-inline--fa fa-address-card fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" height="2em" width="2em" viewBox="0 0 576 512"><path fill="currentColor" d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 400H48V80h480v352zM208 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm-89.6 128h179.2c12.4 0 22.4-8.6 22.4-19.2v-19.2c0-31.8-30.1-57.6-67.2-57.6-10.8 0-18.7 8-44.8 8-26.9 0-33.4-8-44.8-8-37.1 0-67.2 25.8-67.2 57.6v19.2c0 10.6 10 19.2 22.4 19.2zM360 320h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8zm0-64h112c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8z"></path></svg>
                             </div>
                             <div class="col-8">
-                                <small class="">Get your</small> <br><small class="">Biolege card</small>
+                               <small> <div class="mt-2">Get your</div><div class="mb-2">Biolege card</div></small>
                             </div>
                         </div>
                 </div>
@@ -624,19 +621,19 @@
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-check" class="svg-inline--fa fa-user-check fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" height="2em" width="2em" viewBox="0 0 640 512"><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zm323-128.4l-27.8-28.1c-4.6-4.7-12.1-4.7-16.8-.1l-104.8 104-45.5-45.8c-4.6-4.7-12.1-4.7-16.8-.1l-28.1 27.9c-4.7 4.6-4.7 12.1-.1 16.8l81.7 82.3c4.6 4.7 12.1 4.7 16.8.1l141.3-140.2c4.6-4.7 4.7-12.2.1-16.8z"></path></svg>
                         </div>
                         <div class="col-8">
-                            <small class="">Try Prime</small> <br><small class="">Enjoy benefits</small>
+                            <small> <div class="mt-2">Try Prime</div><div class="mb-2">Enjoy benefits</div></small>
                         </div>
                     </div>
             </div>
                 </div>
-                <div class="col-lg-1 ml-5">
-            <div class="container border-light shad border10" style="width: 140px;">
+                <div class="col-lg-1 ml-3">
+            <div class="container border-light shad border10" style="width: 150px;">
                 <div class="row">
                     <div class="col-4 mt-2">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart" class="svg-inline--fa fa-shopping-cart fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" height="2em" width="2em" viewBox="0 0 576 512"><path fill="currentColor" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg>
                     </div>
                     <div class="col-8">
-                        <small class="">0 items</small> <br><small class="">My cart</small>
+                        <small> <div class="mt-2">0 Items</div><div class="mb-2">My cart</div></small>
                     </div>
                 </div>
         </div>
@@ -646,7 +643,7 @@
 
         <!-- ------------------------------------------------------------------------------------------------------------ -->
      
-        <div class="container-fluid slider-2 mt-4 mx-1">
+        <div class="container-fluid slider-2 mt-5 mx-1">
             <div>
                 <img src="carausel1.svg">
             </div>
