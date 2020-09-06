@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href=".\dradminprofile.css">
+</head>
+<body class="bod">
+    <div class="container mt-lg-5">
+     
+            <div class="row mb-n5">
+                <div class="col-12 col-lg-2 mt-md-5 py-md-4 left-pane rounded dash-bg inf1" ><l>
+                     Dashboard<br></l>
+                   <l> Customer </l>
+                </div>
+                <div class="col-lg-10 ">
+                    <div class="col-md-12">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                  <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">HOME</a>
+                                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">DIAGNOSTICS</a>
+                                  <a class="nav-item nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="true">Dr. APPOINTMENT</a>
+                                  <a class="nav-item nav-link" id="nav-pharma-tab" data-toggle="tab" href="#nav-pharma" role="tab" aria-controls="nav-pharma" aria-selected="false">PHARMACEUTICALS</a>
+                                </div>
+                              </nav>
+                              <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active inf" id="" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                    <div class="row mx-sm-4 mx-2">
+                                        <div class="col-sm-12 mt-4">
+                                            <h3>Profile</h3>
+                                        </div>
+                                        <div class="col-sm-12 mt-4">
+                                         <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                             <li class="nav-item " role="presentation">
+                                               <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><b>My details</b></a>
+                                             </li>
+                                             <li class="nav-item" role="presentation">
+                                               <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><b>My clinic</b></a>
+                                             </li>
+                                           </ul>
+                                           <div class="tab-content" id="myTabContent">
+                                             <div class="tab-pane fade show active border border-top-0 mb-3 mt-n5 rounded" id="" role="tabpanel" aria-labelledby="profile-tab">
+          
+                                                    <div class="row my-5 mx-5">
+                                                        <div class="col-lg-6 col-12 mt-5">
+                                                            <table>
+                                                                <tr>
+                                                                    <td>Name</td>
+                                                                    <td>Name</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Date of Birth</td>
+                                                                    <td>Date of Birth</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Contact</td>
+                                                                    <td>Contact</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Gender</td>
+                                                                    <td>Gender</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>E-mail id</td>
+                                                                    <td>E-mail id</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Address</td>
+                                                                    <td>Address</td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <div class="col-lg-6 col-12 d-lg-flex justify-content-end my-3 mt-5">
+                                                            <div class="pic rounded"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="my-5 mx-2">
+                                                        <div>
+                                                            <h6 class="mb-3">
+                                                                Medical education
+                                                            </h6>
+                                        
+                                                            <div class="ml-4">
+                                                                <!-- Button trigger modal -->
+                                                                <h6 type="button" class="text-success" data-toggle="modal" data-target="#exampleModal">
+                                                                    + Add education
+                                                                </h6>
+                                                                <!-- Modal -->
+                                                                <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog h-100 my-0 mx-auto d-flex flex-column justify-content-center">
+                                                                        <div class="modal-content m-2">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel">Add education</h5>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                <form action="">
+                                                                                    <div class="d-flex justify-content-between">
+                                                                                        <div class="form-group">
+                                                                                            <label for="cn">College Name</label>
+                                                                                            <input type="text" class="form-control" id="cn">
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label for="rn">Registration number</label>
+                                                                                            <input type="text" class="form-control" id="rn">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="d-flex justify-content-between">
+                                                                                        <div class="form-group">
+                                                                                            <label for="cn">Start year</label>
+                                                                                            <input type="text" class="form-control" id="cn">
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label for="rn">End year</label>
+                                                                                            <input type="text" class="form-control" id="rn">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="d-flex justify-content-between">
+                                                                                        <div class="form-group">
+                                                                                            <label for="cn">Degree name</label>
+                                                                                            <input type="text" class="form-control" id="cn">
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label for="rn">Field of study</label>
+                                                                                            <input type="text" class="form-control" id="rn">
+                                                                                        </div>
+                                                                                    </div>
+                                        
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                        
+                                                                                <submit type="button" class="btn btn-primary">Save changes</submit>
+                                                                                </form>
+                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <h6>
+                                                                    <li>
+                                                                        Degree name - college name - Year of pass out
+                                                                    </li>
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        
+                                                    <div class="my-5 mx-2">
+                                                        <div>
+                                                            <h6 class="mb-3">
+                                                                Specialization
+                                                            </h6>
+                                        
+                                                            <div class="ml-4">
+                                                                <!-- Button trigger modal -->
+                                                                <h6 type="button" class="text-success" data-toggle="modal" data-target="#exampleModal2">
+                                                                    + Add Specialization
+                                                                </h6>
+                                                                <!-- Modal -->
+                                                                <div class="modal" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog h-100 my-0 mx-auto d-flex flex-column justify-content-center">
+                                                                        <div class="modal-content m-2">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel">Add specialization</h5>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                <form action="">
+                                        
+                                                                                    <div class="form-group">
+                                                                                        <label for="cn">Specialization area</label>
+                                                                                        <input type="text" class="form-control" id="cn">
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                        
+                                                                                <submit type="button" class="btn btn-primary">Save changes</submit>
+                                                                                </form>
+                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <h6>
+                                                                    <li>
+                                                                        Specialization 1
+                                                                    </li>
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="my-5 mx-2">
+                                                        <div>
+                                                            <h6 class="mb-3">
+                                                                Experience
+                                                            </h6>
+                                        
+                                                            <div class="ml-4">
+                                                                <!-- Button trigger modal -->
+                                                                <h6 type="button" class="text-success" data-toggle="modal" data-target="#exampleModal3">
+                                                                    + Add experience
+                                                                </h6>
+                                                                <!-- Modal -->
+                                                                <div class="modal" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog h-100 my-0 mx-auto d-flex flex-column justify-content-center">
+                                                                        <div class="modal-content m-2">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel">Add experience</h5>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                <form action="">
+                                        
+                                                                                    <div class="form-group">
+                                                                                        <label for="cn">Title</label>
+                                                                                        <input type="text" class="form-control" id="cn">
+                                                                                    </div>
+                                                                                    <div class="d-flex justify-content-between">
+                                                                                        <div class="form-group">
+                                                                                            <label for="cn">Start year</label>
+                                                                                            <input type="text" class="form-control" id="cn">
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label for="rn">End year</label>
+                                                                                            <input type="text" class="form-control" id="rn">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <label for="cn">Organization</label>
+                                                                                        <input type="text" class="form-control" id="cn">
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                        
+                                                                                <submit type="button" class="btn btn-primary">Save changes</submit>
+                                                                                </form>
+                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <h6>
+                                                                    <li>
+                                                                        Experience - no. of years
+                                                                    </li>
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="my-5 mx-2">
+                                                        <div>
+                                                            <h6 class="mb-3">
+                                                                Member
+                                                            </h6>
+                                        
+                                                            <div class="ml-4">
+                                                                <!-- Button trigger modal -->
+                                                                <h6 type="button" class="text-success" data-toggle="modal" data-target="#exampleModal4">
+                                                                    + Add membership
+                                                                </h6>
+                                                                <!-- Modal -->
+                                                                <div class="modal" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog h-100 my-0 mx-auto d-flex flex-column justify-content-center">
+                                                                        <div class="modal-content m-2">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel">Add membership</h5>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                <form action="">
+                                        
+                                                                                    <div class="form-group">
+                                                                                        <label for="cn">Organization name</label>
+                                                                                        <input type="text" class="form-control" id="cn">
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                        
+                                                                                <submit type="button" class="btn btn-primary">Save changes</submit>
+                                                                                </form>
+                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <h6>
+                                                                    <li>
+                                                                        Organization name
+                                                                    </li>
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        
+                                        
+                                        
+                                                </div>
+                                                <div class="row mb-5">
+                                                    <div class="col-2 ml-auto">
+                                                        <button class="btn btn-dark btn-sm px-4 rounded-pill">Verified</button>
+                                                    </div>
+                                                </div>
+                                             </div>
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

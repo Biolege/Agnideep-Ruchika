@@ -1,0 +1,137 @@
+a{
+    color: white;
+}
+a:hover{
+   background-color: #141B41;
+    color: white;
+    text-decoration: none;
+}
+.nav {
+   background-color: #141B41 ;
+}
+.nav>li>a {
+   background-color: #141B41 ;
+   color: #fff;
+}
+.add{
+   margin-right: 4em;
+}
+.bod{
+  background-color: #141B41;
+}
+.left-pane{
+  background-color: #FF8900;
+  color: white;
+}
+.round{
+  border-radius:60px; 
+  height: 2.5em;
+  width:2.5em;
+   background-color: #141B41;
+   
+}
+.round1{
+  border-radius:60px; 
+  height: 2.5em;
+  width:2.5em;
+  background-color: rgb(153, 151, 151);
+  border-left: 20px;
+}
+.in1 {
+   border-radius: 100px 0 0 100px;
+   border-top: 2px solid rgba(0, 0, 0, 0.2);
+   border-left: 2px solid rgba(0, 0, 0, 0.2);
+   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+   border-right: 1px solid white;
+   color: rgba(0, 0, 0, 0.8);
+}
+.brdr{
+   border-radius: 50px;
+}
+.inf{
+  font-size: 50px;
+}
+.search{
+   transform: scale(0.8,0.80);
+}
+.circle1{
+   background-color: #E5E5E5; 
+   width: 40px; 
+   height: 40px;
+   }
+   .green-text{
+       color: rgb(2, 182, 2);
+   }
+   .red-text{
+       color: red;
+   }
+.round2{
+  border-radius:60px; 
+  height: 7em;
+  width: 7em;
+  background-color: rgb(153, 151, 151);
+}
+.round3{ 
+  height: 7em;
+  width: 10em;
+  background-color: rgb(153, 151, 151);
+  padding-top: 45px;
+  font-weight: 600;
+  
+}
+.font-20{
+   font-size: 18px;
+   font-weight: 600;
+}
+.font-14{
+   font-size: 16px;
+   font-weight: 600;
+}
+.font-12{
+   font-size: 12px;
+}
+.shad{
+   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.05);
+}
+.input-sm{
+   transform: scale(0.89,0.70);
+}
+.t{
+  margin-left: 30px;
+}
+.i{
+  margin-left: 75px;
+}
+body{
+   transform: scale(0.89,0.89);
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+     [class*="tas"] {
+     font-size: 9px;
+     }
+     [class*="inf"]{
+        margin-left: 30px;
+     }
+     [class*="d"]{
+        margin-top: 5px;
+     }
+     [class*="col-sm-3"]{
+        width: 40%;
+        font-size: 12px;
+        margin-left: 15px;
+     }
+     .circle-margin{
+        margin-left: 90px;
+        margin-top: 20px;
+     }
+     .rectangle-margin{
+        margin-left: 70px;
+        margin-bottom: 20px;
+     }
+     
+  }
+  .text-style{
+     font-size: 20px;
+     font-weight: 600;
+  }
